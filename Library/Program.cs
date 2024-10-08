@@ -5,7 +5,10 @@
     string ISBN;
 
     void DisplayInfo()
+
     {
+        Console.WriteLine("Book Inforamation");
+        Console.WriteLine("-----------------");
         Console.WriteLine($"Book Title;{Title}");
         Console.WriteLine($"Book Author:{Author}");
         Console.WriteLine($"Book ISBN:{ISBN}");
