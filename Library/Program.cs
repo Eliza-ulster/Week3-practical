@@ -19,6 +19,9 @@ class Program
         member.DisplayInfo();
         member1.DisplayInfo();
 
-
+        Person person = new Person(); // Create instance
+        person.FirstName = "John"; // Access public property
+        person.LastName = "Doe";
+        Console.WriteLine(person.GetFullName()); // Outputs "John Doe"
     }
 }
