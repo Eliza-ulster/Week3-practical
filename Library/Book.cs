@@ -26,7 +26,7 @@
             get { return isbn; }
             set { isbn = value; }
         }
-
+        // Constructor to add a new book
         public Book(string bookTitle, string bookAuthor, string bookISBN)
         {
             title = bookTitle;
